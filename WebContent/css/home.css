@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main{
+	margin: 0 auto;
+	width: 100%
+}
+.mainImg{
+	
+	width: 100%;
+	height: 500px;
+     background-image: url('img/back1.jpeg');
+    background-size: 100% ,500px;;
+    opacity: 0.9;
+}
+#search{
+	width:20%;
+	margin:0 auto;
+	padding-top:100px;
+	text-align: center;
+	font-size: 50px;
+	color: rgb(162,187,145);
+	opacity: 1;
+}
+
+.bx-wrapper{
+
+	  
+	   margin-left: auto; 
+	margin-right: auto;
+	top: 160px;
+	
+	
+}
+
+.bx-wrapper,
+.bx-viewport,
+.bx-wrapper img {
+	
+    height:500px;
+    width: 80%;
+	
+}
+.slidem{
+	width: 100%;
+	height: 700px;
+	background-color: #fffff0;
+}
+h1{
+	font-family: 'SDSamliphopangche_Outline';
+}
+#ex1>h2 {
+	
+	text-align: center;
+	font-size: 40px;
+	font-family: 'SDSamliphopangche_Outline';
+}
+h3{
+	margin-top:50px;
+	font-size:30px;
+	text-align: left;
+    font-family: 'SDSamliphopangche_Outline';
+}
+h4{
+	font-size: 25px;
+}
+a{
+	color: black;
+}
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.contentbox{
+	
+	width: 100%;
+	height: 1700px;
+}
+
+.content2{
+	
+	width: 100%;
+	height: 500px;
+	background-color: #fff8eb;
+	
+}
+.content2_1{
+	float: right;
+	width: 48%;
+	height: 100%;
+	
+}
+.content2_2{
+	
+	width: 48%;
+	height: 100%;
+	float: left;
+	
+	
+}
+
+.content3{
+	
+	width: 100%;
+	height: 500px;
+	background-color: #E9DFC8;
+}
+
+.content5{
+	
+	width: 100%;
+	height: 600px;
+	background-color: #fffff0;
+	
+}
+.contentInfo{
+	 width: 80%;
+	 margin-left: auto;
+	 margin-right: auto;
+	 text-align: center;
+	 	
+}
+
+.contentInfo>h2{
+	font-family: 'SDSamliphopangche_Outline';
+	font-size: 40px;
+	
+	margin-left: 10px;
+	padding-top: 15px;
+}
+#magazine{
+	width: 250px;
+	height: 350px;
+	background-color: white;
+	margin-left: 15%;
+	
+	float: left;
+	margin-top: 30px;
+}
+#magazine>a>img{
+	width: 250px;
+	height: 350px;
+}
+#map{
+	margin-left: 300px;
+	z-index: 2;
+	
+}
+#button{
+	border-radius: 10%;
+	background-color: rgb(162,187,145);
+	font-family: 'SDSamliphopangche_Outline';
+	color: black;
+}
+
+
+	
+
+
+
+footer{
+	width: 100%;
+	height: 250px;
+	background-color: #53565A; 
+
+   
+
+    
+}

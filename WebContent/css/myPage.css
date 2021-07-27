@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body{
+background-color:#f5f6f7;
+
+}
+
+#myPage{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+h1{
+	
+	padding-left: 5%;
+}
+h2{
+	margin-top: 50px;
+	text-align:center;
+	
+}
+#myPageForm{
+	width:40%;
+	height:200px;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	text-align:center;
+	
+}
+td{
+	padding-top:5px;
+	font-size:20px;
+}
+input{
+	width: 100%;
+	height: 50px; 
+	margin-bottom: 5px;
+}
+#myinb{
+	color: white;
+	background-color:rgb(162,187,145);
+	font-size: 20px;
+	border-color: #5a7e50;
+	width:100%;
+	height: 50px; 
+	
+}
+button {
+	width: 100%;
+	height: 50px;;
+	margin-top: 10px; 
+	color: white;
+	background-color:rgb(162,187,145);
+	font-size: 20px;
+	border-color: #5a7e50;
+}
